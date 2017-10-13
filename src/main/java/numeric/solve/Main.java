@@ -9,7 +9,6 @@ public class Main {
         BigDecimal x = castToDecimal(1);
         BigDecimal y = castToDecimal(3);
         BigDecimal z = castToDecimal(0.0000000001);
-        BigDecimal t = castToDecimal(0.5);
         System.out.println(z.intValue());
         System.out.println(x.stripTrailingZeros());
         System.out.println(y);
