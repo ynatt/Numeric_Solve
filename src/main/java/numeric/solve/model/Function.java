@@ -10,7 +10,7 @@ import java.util.Map;
 public class Function {
     private String argumentName="x";
     private String valueName="y";
-    private Map<BigDecimal,BigDecimal> argToValue = new LinkedHashMap<>();
+    private Map<BigDecimal,BigDecimal> argToValue = new LinkedHashMap<BigDecimal,BigDecimal>();
 
     public Function(){
 
