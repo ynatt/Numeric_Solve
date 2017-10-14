@@ -14,4 +14,5 @@ public class ApproximationOfBesselEquation extends Function {
             argument = add(argument,step);
         }
     }
+
 }
